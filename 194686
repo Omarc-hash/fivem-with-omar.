@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فايف إم مع عمر - تعليم برمجة FiveM</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --bg-soft: #111827;
+      --card: #ffffff;
+      --primary: #0ea5e9;
+      --primary-soft: rgba(14,165,233,.15);
+      --text: #0f172a;
+      --muted: #64748b;
+      --radius: 1rem;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Cairo", system-ui, sans-serif;
+      background: #f1f5f9;
+      color: var(--text);
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #0ea5e9);
+      color: #fff;
+      padding: 1.2rem 1.5rem 4.5rem;
+    }
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      padding: .35rem .75rem;
+      border-radius: 999px;
+      font-size: .75rem;
+      transition: background .2s;
+    }
+    nav a:hover, nav a.active { background: rgba(15,23,42,.2); }
+    main { max-width: 1080px; margin: 2rem auto; padding: 0 1rem; }
+    .section {
+      background: #fff;
+      border-radius: 1.5rem;
+      padding: 1.5rem;
+      margin-bottom: 1.25rem;
+      box-shadow: 0 16px 35px rgba(15,23,42,0.05);
+    }
+    footer { text-align: center; padding: 1.5rem; color: #94a3b8; font-size: .7rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔥 فايف إم مع عمر</h1>
+    <nav>
+      <a href="#intro" class="active">المقدمة</a>
+      <a href="#start">ابدأ</a>
+      <a href="#first-script">السكربت الأول</a>
+      <a href="#install">تثبيت السكربت</a>
+      <a href="#tips">نصائح</a>
+      <a href="#advanced">متقدم</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro" class="section">
+      <h2>مقدمة</h2>
+      <p>هذا الموقع يشرح برمجة FiveM من الصفر مع أمثلة وسكربتات جاهزة.</p>
+    </section>
+  </main>
+  <footer>&copy; 2025 فايف إم مع عمر</footer>
+</body>
+</html>
